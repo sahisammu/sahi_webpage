@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4ede8; /* Earthy background */
+    color: #574f4c; /* Cozy text color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dbc3b0; /* Warm header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    text-align: center;
+}
+
+nav {
+    background-color: #d1b3a2; /* Nav color */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #574f4c;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+     
+}
+
+nav a:hover {
+    color: #8a7d7a; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.btn {
+    padding: 15px 30px;
+    background-color: #dbc3b0; /* Button color */
+    color: #574f4c;
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    margin: 10px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #8a7d7a; /* Darker color on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.featured-btn {
+    background-color: #a87f6b; /* Featured button color */
+    color: #fff;
+    font-weight: bold;
+}
+
+.featured-btn:hover {
+    background-color: #785541; /* Darker color on hover */
+}
+
+footer {
+    background-color: #dbc3b0; /* Footer color */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: 'Merienda', cursive; /* Cozy font */
+    background-color: #f4ede8; /* Earthy background */
+    color: #574f4c; /* Cozy text color */
+    margin: 0;
+}
+
+  footer {
+background-color: #dbc3b0; /* Footer color */
+text-align: center;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
